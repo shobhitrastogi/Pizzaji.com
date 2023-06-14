@@ -83,12 +83,11 @@ const Home = () => {
         id="white"
         className="headerContainer d-flex justify-content-center align-items-center d-flex flex-column mb-3"
       >
-        <h1 className="p-2 mt-5">Pedro's Pizzeria</h1>
+        <h1 className="p-2 mt-1">Pedro's Pizzeria</h1>
         <p className="p-2">PIZZA TO FIT ANY TASTE</p>
         <Link className="nav-link" to="/menu">
           <button className="p-2 .mb-5 btn-dark">Order Now</button>
         </Link>
-        
       </div>
     </>
   );
